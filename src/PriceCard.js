@@ -4,7 +4,6 @@ import './PriceCard.css';
 const PriceCard = (props) => {
     return (
         <>
-        
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">{props.title}</h5>
@@ -29,7 +28,6 @@ const PriceCard = (props) => {
             </div>
           </div>
         </div>
-
         </>
     )
 }
